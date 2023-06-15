@@ -1,0 +1,40 @@
+.devrelometer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.devrelometer .activities {
+  text-align: center;
+  overflow: auto;
+}
+
+.devrelometer #activities {
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+  list-style: none;
+  max-width: 800px;
+  margin: 0;
+}
+
+.devrelometer #activities li {
+  float: left;
+  width: 400px;
+}
+
+.devrelometer #pie {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.devrelometer #gaugeChart {
+  margin: auto;
+}
+
+.devrelometer .half {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
